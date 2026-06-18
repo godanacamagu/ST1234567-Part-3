@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO Meta Tags -->
+  <title>Contact Us | Golden Palm Hotel</title>
+  <meta name="description" content="Get in touch with Golden Palm Hotel. Send us a message for bookings, enquiries about our luxury rooms, dining, or car hire services. We respond within 24 hours." />
+  <meta name="keywords" content="contact Golden Palm Hotel, hotel booking enquiry, hotel reservation, hotel contact form" />
+  <meta name="author" content="Golden Palm Hotel" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.goldenpalmhotel.com/contact.html" />
+  <link rel="stylesheet" href="./css/stylesheet.css">
+</head>
+
+<body>
+  <nav>
+    <div class="navbar">
+      <a href="./index.html" class="logo">Golden Palm Hotel</a>
+
+      <div class="hamburger" id="hamburger" aria-label="Toggle navigation" role="button" tabindex="0">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="./index.html">Home</a></li>
+        <li>
+          <a href="#" class="submenu-toggle" aria-haspopup="true">Services ▾</a>
+          <ul class="submenu">
+            <li><a href="#">Breakfast</a></li>
+            <li><a href="#">Office Center</a></li>
+            <li><a href="#">Car Hire</a></li>
+          </ul>
+        </li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./Contact.html" class="active">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!--Navigation Ends-->
+
+  <div class="page-header">
+    <h1>Contact Us</h1>
+    <p>We'd love to hear from you. Fill in the form below and we'll get back to you shortly.</p>
+  </div>
+
+  <div class="container contact-wrapper">
+    <div class="contact-info-grid">
+      <div class="contact-detail">
+        <span>📍</span>
+        <p>123 Musgrave, Durban, KZN</p>
+      </div>
+      <div class="contact-detail">
+        <span>📞</span>
+        <p>+27 (75) 555-9876</p>
+      </div>
+      <div class="contact-detail">
+        <span>✉️</span>
+        <p>info@goldenpalmhotel.com</p>
+      </div>
+      <div class="contact-detail">
+        <span>🕐</span>
+        <p>Mon–Sun: 24/7 Reception</p>
+      </div>
+    </div>
+
+    <div class="contact-form-container">
+      <div>
+        <label for="fname">First Name *</label>
+        <input id="fname" type="text" name="firstname" placeholder="Your first name" autocomplete="given-name" />
+        <div id="fname-error" class="field-error" role="alert"></div>
+      </div>
+
+      <div>
+        <label for="lname">Last Name *</label>
+        <input id="lname" type="text" name="lastname" placeholder="Your last name" autocomplete="family-name" />
+        <div id="lname-error" class="field-error" role="alert"></div>
+      </div>
+
+      <div>
+        <label for="ename">Email Address *</label>
+        <input id="ename" type="email" name="email" placeholder="Your email address" autocomplete="email" />
+        <div id="ename-error" class="field-error" role="alert"></div>
+      </div>
+
+      <div>
+        <label for="subject">Message *</label>
+        <textarea id="subject" name="subject" placeholder="How can we help you?" style="height:200px" aria-label="Your message"></textarea>
+        <div id="subject-error" class="field-error" role="alert"></div>
+      </div>
+
+      <button type="button" id="submitBtn" onclick="handleContactSubmit()" class="button submit-btn">
+        Send Message
+      </button>
+    </div>
+  </div>
+
+  <!-- Toast notification -->
+  <div id="toast" class="toast" role="alert" aria-live="polite"></div>
+
+  <footer>
+    <div class="footer-logo">
+      <h2>Golden Palm Hotel</h2>
+      <p>Experience luxury and comfort in the heart of the city. Your perfect getaway awaits at Golden Palm.</p>
+    </div>
+
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Rooms &amp; Suites</a></li>
+        <li><a href="#">Dining</a></li>
+        <li><a href="#">Spa &amp; Wellness</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-contact">
+      <h3>Contact Us</h3>
+      <p>📍 123 Musgrave Road, Durban, KZN</p>
+      <p>📞 +27 (73) 555-9876</p>
+      <p>✉️ info@goldenpalmhotel.com</p>
+      <div class="footer-social">
+        <a href="#" aria-label="Website">🌐</a>
+        <a href="#" aria-label="Facebook">📘</a>
+        <a href="#" aria-label="Twitter">🐦</a>
+        <a href="#" aria-label="Instagram">📸</a>
+      </div>
+    </div>
+
+    <div class="footer-newsletter">
+      <h3>Newsletter</h3>
+      <p>Subscribe for special offers and updates.</p>
+      <div class="newsletter-form">
+        <input type="email" id="newsletterEmail" placeholder="Enter your email" required aria-label="Newsletter email">
+        <button type="button" onclick="handleNewsletterSubmit()">Subscribe</button>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./javascript/script.js"></script>
+</body>
+</html>

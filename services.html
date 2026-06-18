@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Our Services | Golden Palm Hotel — Rooms, Dining, Car Hire & More</title>
+  <meta name="description" content="Explore all services at Golden Palm Hotel: luxury suites, buffet dining, car hire, office centre, spa, and breakfast packages. Book your experience today." />
+  <meta name="keywords" content="Golden Palm Hotel services, hotel rooms, car hire, buffet meals, breakfast, office centre, hotel spa, luxury accommodation" />
+  <meta name="author" content="Golden Palm Hotel" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.goldenpalmhotel.com/services.html" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Golden Palm Hotel Services",
+    "url": "https://www.goldenpalmhotel.com/services.html",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Luxury Suites" },
+      { "@type": "ListItem", "position": 2, "name": "Buffet Dining" },
+      { "@type": "ListItem", "position": 3, "name": "Car Hire" },
+      { "@type": "ListItem", "position": 4, "name": "Breakfast Package" },
+      { "@type": "ListItem", "position": 5, "name": "Office Centre" },
+      { "@type": "ListItem", "position": 6, "name": "Spa & Wellness" }
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="./css/stylesheet.css">
+  <link rel="stylesheet" href="./css/services.css">
+</head>
+
+<body>
+
+  <!-- ── NAVIGATION ───────────────────────────── -->
+  <nav>
+    <div class="navbar">
+      <a href="./index.html" class="logo">Golden Palm Hotel</a>
+
+      <div class="hamburger" id="hamburger" aria-label="Toggle navigation" role="button" tabindex="0">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="./index.html">Home</a></li>
+        <li>
+          <a href="./services.html" class="active submenu-toggle" aria-haspopup="true">Services ▾</a>
+          <ul class="submenu">
+            <li><a href="#breakfast">Breakfast</a></li>
+            <li><a href="#office">Office Centre</a></li>
+            <li><a href="#carhire">Car Hire</a></li>
+          </ul>
+        </li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./Contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ── HERO BANNER ──────────────────────────── -->
+  <header class="services-hero" role="banner">
+    <div class="services-hero__inner">
+      <p class="services-hero__label">What We Offer</p>
+      <h1 class="services-hero__title">Our Services</h1>
+      <p class="services-hero__sub">Everything you need for an extraordinary stay — all in one place.</p>
+      <a href="./Contact.html" class="button hero-cta">Make a Booking</a>
+    </div>
+  </header>
+
+  <!-- ── FILTER TABS ───────────────────────────── -->
+  <section class="filter-section" aria-label="Filter services by category">
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all">All Services</button>
+      <button class="filter-btn" data-filter="accommodation">Accommodation</button>
+      <button class="filter-btn" data-filter="dining">Dining</button>
+      <button class="filter-btn" data-filter="transport">Transport</button>
+      <button class="filter-btn" data-filter="business">Business</button>
+      <button class="filter-btn" data-filter="wellness">Wellness</button>
+    </div>
+  </section>
+
+  <!-- ── SERVICES GRID ─────────────────────────── -->
+  <main class="services-main" id="services">
+
+    <!-- 1. Luxury Suites -->
+    <article class="service-card" data-category="accommodation" id="suites" aria-label="Luxury Suites service">
+      <div class="service-card__img-wrap">
+        <img src="./Img/h1.jpg" alt="Luxury suite interior at Golden Palm Hotel" loading="lazy">
+        <span class="service-card__badge">From R2 000 / night</span>
+      </div>
+      <div class="service-card__body">
+        <div class="service-card__icon">🛏️</div>
+        <h2>Luxury Suites</h2>
+        <p class="service-card__tagline">Single &amp; Double Rooms</p>
+        <p>Indulge in our spacious, elegantly furnished suites designed for couples and solo travellers alike. Each room features a king-size bed, climate control, flat-screen TV, in-room safe, and a private en-suite bathroom with premium toiletries.</p>
+        <ul class="service-card__features">
+          <li>✔ King-size &amp; twin bed options</li>
+          <li>✔ 24-hour room service</li>
+          <li>✔ High-speed Wi-Fi included</li>
+          <li>✔ Daily housekeeping</li>
+        </ul>
+        <div class="service-card__footer">
+          <span class="service-card__price">From <strong>R2 000</strong> / night</span>
+          <a href="./Contact.html" class="button">Book Now</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- 2. Buffet Dining -->
+    <article class="service-card" data-category="dining" id="dining" aria-label="Buffet Dining service">
+      <div class="service-card__img-wrap">
+        <img src="./Img/h3.jpg" alt="Gourmet buffet spread at Golden Palm Hotel restaurant" loading="lazy">
+        <span class="service-card__badge service-card__badge--gold">Popular</span>
+      </div>
+      <div class="service-card__body">
+        <div class="service-card__icon">🍽️</div>
+        <h2>Buffet Dining</h2>
+        <p class="service-card__tagline">All-You-Can-Eat Cuisine</p>
+        <p>Savour an extensive spread of local and international dishes at our signature buffet restaurant. From fresh salads and artisan breads to carved meats and decadent desserts — every meal is a celebration.</p>
+        <ul class="service-card__features">
+          <li>✔ Breakfast, lunch &amp; dinner sittings</li>
+          <li>✔ Vegetarian &amp; halal options</li>
+          <li>✔ Live cooking stations</li>
+          <li>✔ Complimentary soft drinks</li>
+        </ul>
+        <div class="service-card__footer">
+          <span class="service-card__price"><strong>R300</strong> / person per sitting</span>
+          <a href="./Contact.html" class="button">Reserve a Table</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- 3. Car Hire -->
+    <article class="service-card" data-category="transport" id="carhire" aria-label="Car Hire service">
+      <div class="service-card__img-wrap">
+        <img src="./Img/h2.jpg" alt="Rental vehicle at Golden Palm Hotel car hire" loading="lazy">
+        <span class="service-card__badge">From R2 000 / day</span>
+      </div>
+      <div class="service-card__body">
+        <div class="service-card__icon">🚗</div>
+        <h2>Car Hire</h2>
+        <p class="service-card__tagline">Any Shape, Any Size</p>
+        <p>Explore at your own pace with our flexible car hire service. Choose from sedans, SUVs, and luxury vehicles. All rentals include comprehensive insurance and complimentary fuel to the value of R500.</p>
+        <ul class="service-card__features">
+          <li>✔ Sedan, SUV &amp; luxury options</li>
+          <li>✔ R500 complimentary fuel voucher</li>
+          <li>✔ Comprehensive insurance included</li>
+          <li>✔ Airport pickup &amp; drop-off available</li>
+        </ul>
+        <div class="service-card__footer">
+          <span class="service-card__price">From <strong>R2 000</strong> / day</span>
+          <a href="./Contact.html" class="button">Hire a Car</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- 4. Breakfast Package -->
+    <article class="service-card" data-category="dining" id="breakfast" aria-label="Breakfast Package service">
+      <div class="service-card__img-wrap">
+        <img src="./Img/hotel2.jpg" alt="Continental breakfast served at Golden Palm Hotel" loading="lazy">
+        <span class="service-card__badge service-card__badge--green">Included with some rooms</span>
+      </div>
+      <div class="service-card__body">
+        <div class="service-card__icon">🥐</div>
+        <h2>Breakfast Package</h2>
+        <p class="service-card__tagline">Start Your Day Right</p>
+        <p>Wake up to a freshly prepared hot and cold breakfast spread. Our morning menu includes eggs cooked to order, fresh fruits, pastries, cereals, and a full selection of hot beverages.</p>
+        <ul class="service-card__features">
+          <li>✔ Hot &amp; cold breakfast options</li>
+          <li>✔ Eggs any style, cooked to order</li>
+          <li>✔ Fresh juices, tea &amp; coffee</li>
+          <li>✔ Gluten-free &amp; dairy-free choices</li>
+        </ul>
+        <div class="service-card__footer">
+          <span class="service-card__price"><strong>R150</strong> / person</span>
+          <a href="./Contact.html" class="button">Add to Booking</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- 5. Office Centre -->
+    <article class="service-card" data-category="business" id="office" aria-label="Business Office Centre service">
+      <div class="service-card__img-wrap">
+        <img src="./Img/hotel3.jpg" alt="Business office centre at Golden Palm Hotel" loading="lazy">
+        <span class="service-card__badge">Hourly &amp; daily rates</span>
+      </div>
+      <div class="service-card__body">
+        <div class="service-card__icon">💼</div>
+        <h2>Office Centre</h2>
+        <p class="service-card__tagline">Business-Ready Facilities</p>
+        <p>Stay productive with our fully equipped business centre. Whether you need a private meeting room, video conferencing setup, or a quiet co-working desk, we've got you covered — seven days a week.</p>
+        <ul class="service-card__features">
+          <li>✔ Private meeting rooms (up to 20 pax)</li>
+          <li>✔ High-speed fibre internet</li>
+          <li>✔ Printing, scanning &amp; copying</li>
+          <li>✔ Projector &amp; video conferencing</li>
+        </ul>
+        <div class="service-card__footer">
+          <span class="service-card__price">From <strong>R500</strong> / hour</span>
+          <a href="./contact.html" class="button">Book a Room</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- 6. Spa & Wellness -->
+    <article class="service-card" data-category="wellness" id="spa" aria-label="Spa and Wellness service">
+      <div class="service-card__img-wrap">
+        <img src="./Img/hotel1.jpg" alt="Relaxing spa and wellness centre at Golden Palm Hotel" loading="lazy">
+        <span class="service-card__badge service-card__badge--gold">New</span>
+      </div>
+      <div class="service-card__body">
+        <div class="service-card__icon">💆</div>
+        <h2>Spa &amp; Wellness</h2>
+        <p class="service-card__tagline">Rejuvenate Body &amp; Mind</p>
+        <p>Unwind in our luxurious spa, offering a full range of treatments from deep-tissue massages and hot stone therapy to facials and body wraps. Our certified therapists craft each session to your personal needs.</p>
+        <ul class="service-card__features">
+          <li>✔ Swedish, deep-tissue &amp; hot stone massage</li>
+          <li>✔ Facial &amp; skincare treatments</li>
+          <li>✔ Heated indoor pool &amp; sauna</li>
+          <li>✔ Couples packages available</li>
+        </ul>
+        <div class="service-card__footer">
+          <span class="service-card__price">Treatments from <strong>R450</strong></span>
+          <a href="./contact.html" class="button">Book Treatment</a>
+        </div>
+      </div>
+    </article>
+
+  </main>
+
+  <!-- ── NO RESULTS MESSAGE ────────────────────── -->
+  <div class="no-results" id="noResults" aria-live="polite" style="display:none;">
+    <p>No services found in this category.</p>
+  </div>
+
+  <!-- ── ENQUIRY STRIP ─────────────────────────── -->
+  <section class="enquiry-strip" aria-label="Quick enquiry">
+    <div class="enquiry-strip__inner">
+      <div class="enquiry-strip__text">
+        <h2>Not sure which package suits you?</h2>
+        <p>Our team is available 24/7 to help you plan the perfect stay.</p>
+      </div>
+      <div class="enquiry-strip__actions">
+        <a href="./Contact.html" class="button">Contact Us</a>
+        <a href="tel:+2773555-9876" class="button button--outline">📞 Call Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── TOAST NOTIFICATION ────────────────────── -->
+  <div id="toast" class="toast" role="alert" aria-live="polite"></div>
+
+  <!-- ── SCROLL TO TOP ─────────────────────────── -->
+  <button id="scrollTopBtn" aria-label="Scroll to top">↑</button>
+
+  <!-- ── FOOTER ────────────────────────────────── -->
+  <footer>
+    <div class="footer-logo">
+      <h2>Golden Palm Hotel</h2>
+      <p>Experience luxury and comfort in the heart of the city. Your perfect getaway awaits at Golden Palm.</p>
+    </div>
+
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./services.html">Services</a></li>
+        <li><a href="./about.html">About Us</a></li>
+        <li><a href="./contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-contact">
+      <h3>Contact Us</h3>
+      <p>📍 123 Musgrave Road, Durban, KZN</p>
+      <p>📞 +27 (73) 555-9876</p>
+      <p>✉️ info@goldenpalmhotel.com</p>
+      <div class="footer-social">
+        <a href="#" aria-label="Website">🌐</a>
+        <a href="#" aria-label="Facebook">📘</a>
+        <a href="#" aria-label="Twitter">🐦</a>
+        <a href="#" aria-label="Instagram">📸</a>
+      </div>
+    </div>
+
+    <div class="footer-newsletter">
+      <h3>Newsletter</h3>
+      <p>Subscribe for special offers and updates.</p>
+      <div class="newsletter-form">
+        <input type="email" id="newsletterEmail" placeholder="Enter your email" required aria-label="Newsletter email">
+        <button type="button" onclick="handleNewsletterSubmit()">Subscribe</button>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // ── Hamburger toggle ──────────────────────────
+    const hamburger = document.getElementById('hamburger');
+    const navLinks  = document.getElementById('navLinks');
+
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      navLinks.classList.toggle('open');
+    });
+
+    // ── Submenu toggle on mobile ──────────────────
+    document.querySelectorAll('.submenu-toggle').forEach(toggle => {
+      toggle.addEventListener('click', (e) => {
+        if (window.innerWidth <= 768) {
+          e.preventDefault();
+          const submenu = toggle.nextElementSibling;
+          if (submenu) submenu.classList.toggle('open');
+        }
+      });
+    });
+
+    // ── Navbar shadow on scroll ───────────────────
+    const navbar = document.querySelector('.navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 10);
+    });
+
+    // ── Filter tabs ───────────────────────────────
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const cards      = document.querySelectorAll('.service-card');
+    const noResults  = document.getElementById('noResults');
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        const filter = btn.dataset.filter;
+        let visible = 0;
+
+        cards.forEach(card => {
+          const match = filter === 'all' || card.dataset.category === filter;
+          card.hidden = !match;
+          if (match) visible++;
+        });
+
+        noResults.style.display = visible === 0 ? 'block' : 'none';
+      });
+    });
+
+    // ── Scroll-to-top button ──────────────────────
+    const scrollBtn = document.getElementById('scrollTopBtn');
+
+    window.addEventListener('scroll', () => {
+      scrollBtn.style.display = window.scrollY > 300 ? 'flex' : 'none';
+    });
+
+    scrollBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    // ── Newsletter ────────────────────────────────
+    function showToast(message, type = 'info') {
+      const toast = document.getElementById('toast');
+      toast.textContent = message;
+      toast.className = `toast toast--${type} toast--visible`;
+      setTimeout(() => { toast.className = 'toast'; }, 3500);
+    }
+
+    function handleNewsletterSubmit() {
+      const input = document.getElementById('newsletterEmail');
+      if (!input.value || !input.validity.valid) {
+        showToast('Please enter a valid email address.', 'error');
+        input.focus();
+        return;
+      }
+      showToast('Thanks for subscribing! 🎉', 'success');
+      input.value = '';
+    }
+  </script>
+
+</body>
+</html>

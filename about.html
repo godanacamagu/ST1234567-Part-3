@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO Meta Tags -->
+  <title>About Us | Golden Palm Hotel</title>
+  <meta name="description" content="Learn about Golden Palm Hotel — a luxury destination in Miami managed by our passionate team. Meet our CEO, Procurement Manager, and Staff Supervisor." />
+  <meta name="keywords" content="about Golden Palm Hotel, hotel team, hotel management, luxury hotel Miami, hotel history" />
+  <meta name="author" content="Golden Palm Hotel" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.goldenpalmhotel.com/about.html" />
+  <link rel="stylesheet" href="./css/stylesheet.css">
+  <title>About Us | Golden Palm Hotel</title>
+</head>
+
+<body>
+  <nav>
+    <div class="navbar">
+      <a href="./index.html" class="logo">Golden Palm Hotel</a>
+
+      <div class="hamburger" id="hamburger" aria-label="Toggle navigation" role="button" tabindex="0">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="./index.html">Home</a></li>
+        <li>
+          <a href="#" class="submenu-toggle" aria-haspopup="true">Services ▾</a>
+          <ul class="submenu">
+            <li><a href="#">Breakfast</a></li>
+            <li><a href="#">Office Center</a></li>
+            <li><a href="#">Car Hire</a></li>
+          </ul>
+        </li>
+        <li><a href="./about.html" class="active">About</a></li>
+        <li><a href="./Contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!--Navigation Ends-->
+
+  <div class="about-section">
+    <h1>About Golden Palm Hotel</h1>
+    <p>Golden Palm Luxury Hotel — where elegance meets comfort.</p>
+    <p><em>"Book for a night, stay for the month."</em></p>
+    <p class="about-description">
+      Founded with a passion for hospitality, Golden Palm Hotel has been a beacon of luxury and comfort. 
+      From our exquisite suites to our world-class dining and dedicated staff, every detail is crafted to make your stay extraordinary.
+    </p>
+  </div>
+
+  <h2 style="text-align:center">Meet Our Team</h2>
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="./img/Elexis.jpg" alt="Elexis — CEO and Founder of Golden Palm Hotel" style="width:100%">
+        <div class="container">
+          <h2>Elexis</h2>
+          <p class="title">CEO &amp; Founder</p>
+          <p>Visionary leader with 20+ years in luxury hospitality management.</p>
+          <p>elexis@goldenpalmhotel.com</p>
+          <p><button class="button" onclick="window.location.href='./Contact.html'">Contact</button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="./img/Mike.jpg" alt="Mike Ross — Procurement Manager at Golden Palm Hotel" style="width:100%">
+        <div class="container">
+          <h2>Mike Ross</h2>
+          <p class="title">Procurement Manager</p>
+          <p>Ensuring only the finest quality products and services for our guests.</p>
+          <p>mike@goldenpalmhotel.com</p>
+          <p><button class="button" onclick="window.location.href='./Contact.html'">Contact</button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="./img/samantha.avif" alt="Samantha — Staff Supervisor at Golden Palm Hotel" style="width:100%">
+        <div class="container">
+          <h2>Samantha</h2>
+          <p class="title">Staff Supervisor</p>
+          <p>Dedicated to ensuring every guest receives world-class service.</p>
+          <p>samantha@goldenpalmhotel.com</p>
+          <p><button class="button" onclick="window.location.href='./Contact.html'">Contact</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast notification -->
+  <div id="toast" class="toast" role="alert" aria-live="polite"></div>
+
+  <footer>
+    <div class="footer-logo">
+      <h2>Golden Palm Hotel</h2>
+      <p>Experience luxury and comfort in the heart of the city. Your perfect getaway awaits at Golden Palm.</p>
+    </div>
+
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Rooms &amp; Suites</a></li>
+        <li><a href="#">Dining</a></li>
+        <li><a href="#">Spa &amp; Wellness</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-contact">
+      <h3>Contact Us</h3>
+      <p>📍 123 Musgrave Road, Durban, KZN</p>
+      <p>📞 +27 (73) 555-9876</p>
+      <p>✉️ info@goldenpalmhotel.com</p>
+      <div class="footer-social">
+        <a href="#" aria-label="Website">🌐</a>
+        <a href="#" aria-label="Facebook">📘</a>
+        <a href="#" aria-label="Twitter">🐦</a>
+        <a href="#" aria-label="Instagram">📸</a>
+      </div>
+    </div>
+
+    <div class="footer-newsletter">
+      <h3>Newsletter</h3>
+      <p>Subscribe for special offers and updates.</p>
+      <div class="newsletter-form">
+        <input type="email" id="newsletterEmail" placeholder="Enter your email" required aria-label="Newsletter email">
+        <button type="button" onclick="handleNewsletterSubmit()">Subscribe</button>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./javascript/script.js"></script>
+</body>
+</html>
